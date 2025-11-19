@@ -25,6 +25,6 @@ resource "azurerm_eventhub_namespace_authorization_rule" "lab" {
   namespace_name      = azurerm_eventhub_namespace.lab.name
   resource_group_name = azurerm_resource_group.lab.name
   listen              = true
-  send                = false
+  send                = true
   manage              = false
 }

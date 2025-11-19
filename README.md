@@ -49,7 +49,7 @@ Notes and caveats
 - Some API calls for AAD diagnostic settings are tenant-scoped and may not appear with service principals or limited scopes.
 
 Portal recreation guide
-Refer to `PORTAL_GUIDE.md` for a step-by-step guide to recreate the resources in the Azure Portal and for CLI verification snippets.
+Refer to `AzurePortal-Step-by-Step.md` for a step-by-step guide to recreate the resources in the Azure Portal and for CLI verification snippets.
 
 Next steps (optional)
 - Add a small consumer application (Python/Node) to read messages from the Event Hub and validate logs arrival.
